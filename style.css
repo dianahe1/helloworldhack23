@@ -1,0 +1,212 @@
+@import url(https://use.typekit.net/fws3bge.css);
+
+body {
+    background-color: #FEEDD7;
+    font-family: "new-spirit",serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Navigation Bar */
+    nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 25px;
+    }
+    nav > ul {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        background: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 15px;
+        padding: 0 20px;
+    }
+    nav > ul > li {
+        list-style-type: none;
+        padding: 20px 50px;
+    }
+    nav > ul > li > a {
+        text-decoration: none;
+        color:#1b1b1b;
+    }
+/* End of navigation bar */
+
+
+
+/* Home page headers */
+    #home-header {
+        font-size: 55px;
+        color: #593403;
+        text-align: center;
+        line-height: 5px;
+        margin: 9% 0 12% 0;
+    }
+/* End of home page headers */
+
+
+
+/* The Problem introduction section */
+    #problem-intro {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(193, 140, 175);
+        margin: 0 auto -5% auto;
+        padding-bottom: 7.5%;
+    }
+    #problem-leaves-header-image {
+        margin: 0 0 -10px 0;
+        width: 100%;
+    }
+    .problem-intro-text {
+        margin: 0 auto;
+        width: 50%;
+        padding: 5% 0;
+    }
+    .problem-intro-header {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .problem-intro-paragraph {
+        font-size: 20px;
+        line-height: 2.15em;
+    }
+/* End of The Problem introduction section */
+
+
+
+/* Vegan and Vegetarian Restaurants Map section */  
+    #greenwave-image {
+        margin: 0 0 -10px 0;
+        width: 100%;
+    }
+    #dietMap-section {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        background-color: #eff8e3;
+        margin: 0 auto;
+        padding-bottom: 10%;
+    }
+    #dietMap-header {
+        font-size: 30px;
+        text-align: center;
+        border-bottom: 1px solid #181818;
+        width: 50%;
+        padding-bottom: 15px;
+        margin: 0 auto 28px auto;
+    }
+    #dietMap-buttonContainer {
+        display: flex;
+        justify-content: center;
+    }
+   .dietOption {
+        font-family: century-gothic;
+        font-size:16px;
+        background-color: #ececec;
+        color: #1b1b1b;
+        text-decoration: none;
+        border: 1.5px solid #1b1b1b;
+        border-radius: 30px;
+        margin: 35px 50px 0 50px;
+        padding: 20px 20px;
+    }
+/* End of Vegan and Vegetarian Restaurants Map section */
+
+.footer-note {
+    font-size: 15px;
+    background-color: #1b1b1b;
+    text-align: center;
+    color: #ececec;
+    padding: 20px 0;
+}
+
+
+
+/* Recipe Ideas Section */
+#recipeheader {
+    font-size: 40px;
+    margin: 50px 0;
+}
+.recipeintrosection {
+    margin: 0 0 0 5%;
+}
+#vegan-recipes-section, #vegetarian-recipes-section {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    width:90%;
+    margin:auto;
+    margin-bottom:50px;
+}
+#recipecard {
+    margin: 15px 50px;
+}
+#vegan-header, #vegetarian-header {
+    font-size: 30px;
+    margin: 3.5% 0 1% 5%;
+}
+/* End of Recipe Ideas Section */
+
+
+
+/* Brand Recommendations Section*/
+.brand-header {
+    font-size: 35px;
+    margin: 80px 0;
+}
+.brand-introtext {
+    margin: 50px 0 3% 5%;
+}
+.brand-section {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    width:90%;
+    margin:auto;
+    margin-bottom:50px;
+}
+.brands-flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.brandimage {
+    width: 250px;
+    height: 150px;
+    padding: 10px 30px;
+}
+/* End of Brand Recommendations Section */
+
+
+/* Sugguestion Section */
+#brownwave-image {
+    margin: 60px 0 -10px 0;
+    width: 100%;
+}
+.suggestion-section {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    background-color: rgb(179, 130, 113);
+}
+.suggestion-flexContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+/* End of Sugguestion Section */
