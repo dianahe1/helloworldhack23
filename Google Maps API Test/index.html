@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Place Search Pagination</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style2.css" />
+
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    
+    <nav>
+      <ul id = "navul">
+        <li class="navli"><a href = "/home.html">Home</a></li>
+        <li class="navli"><a href = "/recipes.html">Recipes</a></li>
+        <li class="navli"><a href = "/brandRecs.html">Brands</a></li>
+      </ul>
+    </nav>
+
+    <div id="container">
+      <div id="map"></div>
+      <div id="sidebar">
+        <h2>Results</h2>
+        <ul id="places"></ul>
+        <button id="more">Load more results</button>
+      </div>
+    </div>
+
+    <div class="footer-note">Made with 💗 by Diana, Sid, Saakshi, and Alissa at Purdue University's Hello World Hackathon 2023</div>
+
+    <!-- 
+      The `defer` attribute causes the callback to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises.
+      See https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc9diowOT1RQFwKoHBCNGpUxjwcD7vbio&callback=initMap&libraries=places&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
