@@ -1,6 +1,6 @@
 # Vegescope
 
-##Our project for Purdue University's 2023 Hello World Hackathon
+## Our project for Purdue University's 2023 Hello World Hackathon
 
 ## Inspiration
 We were inspired by our many friends with diverse dietary restrictions. Our group includes members with vegetarian and lactose-free diets, so we wanted to create a project to help people like them.
