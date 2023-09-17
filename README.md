@@ -1,4 +1,4 @@
-# Vegescope
+# Vegescope 🌱
 
 ## Our project for Purdue University's 2023 Hello World Hackathon
 
